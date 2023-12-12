@@ -100,9 +100,10 @@ class CustomerReceiptController extends Controller
                 //     return $btn;
                 // })
                 ->addColumn('action', function ($data) {
-                    $btn = '<span  class="d-inline-flex"><a target="_blank" href=' . url(\Request::segment(1) . '/customer-receipts-prints/' . $data->invoice_no . '/a4') . ' class="btn btn-info  btn-sm float-left" style="margin-left: 5px"><i class="fa fa-print"></i></a>';
+                    // $btn = '<span  class="d-inline-flex"><a target="_blank" href=' . url(\Request::segment(1) . '/customer-receipts-prints/' . $data->invoice_no . '/a4') . ' class="btn btn-info  btn-sm float-left" style="margin-left: 5px"><i class="fa fa-print"></i></a>';
+                    $btn = '<span  class="d-inline-flex"><a target="_blank" href=' . url(\Request::segment(1) . '/customer-receipts-prints-v2/' . $data->invoice_no . '/' . $data->customer_id . '/a4') . ' class="btn btn-info  btn-sm float-left" style="margin-left: 5px"><i class="fa fa-print"></i></a>';
                     $btn .= '<a href=' . route(\Request::segment(1) . '.customer-receipts.edit', $data->id) . ' class="btn btn-info waves-effect btn-sm float-left" style="margin-left: 5px"><i class="fa fa-edit"></i></a>';
-                    $btn .= '<a target="_blank" href=' . url(\Request::segment(1) . "/customer-receipts-invoice-pdf/" . $data->invoice_no) . ' class="btn btn-info  btn-sm float-left" style="margin-left: 5px"><i class="fas fa-file-pdf"></i></a></span>';
+                    $btn .= '<a target="_blank" href=' . url(\Request::segment(1) . "/customer-receipts-invoice-pdf/" . $data->invoice_no . '/' . $data->customer_id) . ' class="btn btn-info  btn-sm float-left" style="margin-left: 5px"><i class="fas fa-file-pdf"></i></a></span>';
                     return $btn;
                 })
                 ->addColumn('created_by_user', function ($data) {
@@ -484,6 +485,15 @@ class CustomerReceiptController extends Controller
         }
     }
 
+    public function customerReceiptsPrintWithPageSizeV2($id, $cus_id, $pagesize)
+    {
+        $default_business_settings = $this->getBusinessSettingsInfo();
+        $digit = new NumberFormatter("en", NumberFormatter::SPELLOUT);
+        $transactions = PaymentReceipt::where('invoice_no',$id)->where('customer_id',$cus_id)->where('order_type','Received')->get();
+        $created_by_user_id = $transactions[0]->created_by_user_id;
+        return view('backend.common.customer_receipts.print_with_size', compact('digit','default_business_settings','pagesize','transactions','created_by_user_id'));
+    }
+
     public function customerReceiptsPrintWithPageSize($id, $pagesize)
     {
         $default_business_settings = $this->getBusinessSettingsInfo();
@@ -493,11 +503,11 @@ class CustomerReceiptController extends Controller
         return view('backend.common.customer_receipts.print_with_size', compact('digit','default_business_settings','pagesize','transactions','created_by_user_id'));
     }
 
-    public function customerReceiptsInvoicePdfDownload($id)
+    public function customerReceiptsInvoicePdfDownload($id, $cus_id)
     {
         $default_business_settings = $this->getBusinessSettingsInfo();
         $digit = new NumberFormatter("en", NumberFormatter::SPELLOUT);
-        $transactions = PaymentReceipt::where('invoice_no',$id)->where('order_type','Received')->get();
+        $transactions = PaymentReceipt::where('invoice_no',$id)->where('customer_id',$cus_id)->where('order_type','Received')->get();
         $created_by_user_id = $transactions[0]->created_by_user_id;
         $pdf = Pdf::loadView('backend.common.customer_receipts.invoice_pdf', compact('digit','default_business_settings','transactions','created_by_user_id'));
         return $pdf->stream('customer_receipts_invoice_' . now() . '.pdf');

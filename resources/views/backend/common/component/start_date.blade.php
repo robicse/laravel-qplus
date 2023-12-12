@@ -5,4 +5,3 @@
         <span class="text-danger alert">{{ $errors->first('start_date') }}</span>
     @endif
 </div>
-

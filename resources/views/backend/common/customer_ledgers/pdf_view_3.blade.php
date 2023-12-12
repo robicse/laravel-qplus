@@ -11,8 +11,6 @@
             font-style: normal;
             font-variant: normal;
             src: url('{{ storage_path('fonts/Adobe_Arabic_Regular.ttf') }}');
-
-
         }
 
         * {

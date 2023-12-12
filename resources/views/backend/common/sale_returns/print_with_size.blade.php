@@ -178,10 +178,10 @@ use Salla\ZATCA\Tags\TaxNumber;
                                                 <th class="text-left">Invoice Due:</th>
                                                 <td class="currency">{{ number_format(@$saleReturn->invoice_due, 2) }}</td>
                                             </tr>
-                                            <!--<tr>-->
-                                            <!--    <th class="text-left">Return Amount:</th>-->
-                                            <!--    <td class="currency">{{ number_format(@$saleReturn->refundable_amount, 2) }}</td>-->
-                                            <!--</tr>-->
+                                            <tr>
+                                                <th class="text-left">Return Amount:</th>
+                                                <td class="currency">{{ number_format(@$saleReturn->refundable_amount, 2) }}</td>
+                                            </tr>
                                             <tr>
                                                 <th class="text-left">Refund Total:</th>
                                                 <td class="currency">{{ number_format(@$saleReturn->refund_amount, 2) }}</td>

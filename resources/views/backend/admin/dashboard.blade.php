@@ -157,7 +157,7 @@
         </div>
     </section>
     <?php
-        $stores = Helper::getStoreList(Auth::user()->store_id);
+        $stores = Helper::getStoreList({{ Auth::user()->store_id }});
     ?>
     @if(!empty($stores))
         @foreach($stores as $store)

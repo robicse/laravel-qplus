@@ -76,8 +76,9 @@ Route::get('/blank-sales-invoice-pdf/{id}', [BlankSaleController::class, 'blankS
 Route::resource('advance-receipts', AdvanceReceiptController::class);
 Route::get('/advance-receipts-invoice-pdf/{id}', [AdvanceReceiptController::class, 'advanceReceiptsInvoicePdfDownload']);
 Route::resource('customer-receipts', CustomerReceiptController::class);
+Route::get('customer-receipts-prints-v2/{id}/{cus_id}/{pagesize}', [CustomerReceiptController::class, 'customerReceiptsPrintWithPageSizeV2'])->name('customer-receipts-prints-v2');
 Route::get('customer-receipts-prints/{id}/{pagesize}', [CustomerReceiptController::class, 'customerReceiptsPrintWithPageSize'])->name('customer-receipts-prints');
-Route::get('/customer-receipts-invoice-pdf/{id}', [CustomerReceiptController::class, 'customerReceiptsInvoicePdfDownload']);
+Route::get('/customer-receipts-invoice-pdf/{id}/{cus_id}', [CustomerReceiptController::class, 'customerReceiptsInvoicePdfDownload']);
 Route::get('customer-due-balance-info/{id}', [CustomerReceiptController::class, 'customerDueBalanceInfo']);
 Route::get('customer-due-amount/{id}', [CustomerReceiptController::class, 'customerDueAmount']);
 Route::resource('customer-dues', CustomerDueController::class);
