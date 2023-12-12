@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Camber';
+    src: url('/fonts/Camber-Rg.ttf');
+}
+body {
+    padding: 40px 0 0 0;
+    background-color: #FFFFFF;
+    font-family: 'Camber' !important;
+}
+
+.card {
+    padding: 50px 0 20px 0;
+    background-color: #FFFFFF;
+    border: 1px solid #E62238;
+
+}
+
+.form-ara {
+    border: 1px solid;
+}
+
+.user {
+    height: 80px;
+    width: 80px;
+    border: 3px solid #E62238;
+    margin: 0 auto;
+    line-height: 88px;
+    border-radius: 50%;
+}
+
+.user i {
+    padding: 5px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #063958
+}
+form input{
+    height: 45px;
+    width: 100%;
+
+   border: 1px solid #f4205f;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: #fff;
+    padding: 10px;
+
+
+}
+button{
+    height: 35px;
+    width: 100%;
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    color: #fff;
+    font-weight: 700;
+    transition: all .3s linear
+
+}
+button:hover{
+   background-color: transparent;
+    color: #F46C20;
+}
+input:focus {
+    border-color: #343a40 !important;
+
+}
+
+

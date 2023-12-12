@@ -1,0 +1,96 @@
+.mainBody{margin:0 auto;width:680px; height:100%; border:1px solid #ccc;padding:5px;}
+.header_print{width:100%;height:100px; border-bottom:1px solid #ccc;top : 0; }
+.middle_body{width:100%;height:auto; height:700px;  }
+.foorter_print{position:absolute;
+   bottom:0;
+   width:100%;
+   height:auto;    }
+
+.header_logo{width:120px; height:100px; float:left; padding-right: 10px;}
+.header_logo_img{width:100%; height:90% !important; float:left; border:1px solid #ccc}
+.header_address{width:490px; height:100px; float:left;}
+.header_date{width:135px; height:100px; float:right; text-align:left }
+.header_address_text_1{font-size: 20px; width: 100%;  float: left;  text-transform: uppercase; font-weight: bold;}
+.header_address_text_2{font-size: 17px; width: 100%;  float: left;  }
+.header_address_text_3{font-size: 14px; width: 100%;  float: left;  }
+.header_address_text_4{font-size: 11px; width: 100%;  float: left;  }
+.header_date_span{ width:100%; float:left;}
+.padding_top_bottom{padding-top:20px; padding-bottom:1px;}
+
+.data_body{width:100%;height:auto;}
+.border_padding_top{border-top:1px solid #ccc; padding-top:10px}
+ .main_table_clas th,td{border:1px solid black; }
+tr {page-break-inside: avoid;}
+table.main_table_clas { 
+    border-spacing: 0;    border-collapse: collapse;
+}
+
+
+/* accont opening form css */
+
+.title_text{    text-align: center;    padding: 0px;    margin: 4px;    font-size: 17px;    font-weight: bold;    text-decoration: underline;}
+.borderbox{ border: 1px solid #ccc;margin-left: 0px !important; margin-right:0px !important; margin-bottom:30px; padding-bottom:30px}
+.title_gap{background-color: #ffffff; padding: 0 30px;margin: -12px 20px;float: left;}
+frz{color:red; padding:2px 2px 2px 6px;}
+.basic_table{margin-top:10px; width:100%}
+.basic_table th{width:120px;height:30px; text-align:left; border:none;padding-left: 10px;} 
+.basic_table td{widht:35%;height:30px; text-align:left;border:none;} 
+.nominee_sig{border: 1px solid #000;
+width: 140px;
+height: 40px;
+float: right;
+margin-top: 15px;}
+.basic_table th,td{ font-family: arial;}
+.basic_table th{font-size: 12px; }
+.basic_table td{font-size: 11px;}
+.address_table th{ width:115px}
+.office_info th{width:130px}
+.nominee_tbl th{width:165px}
+.signature_line{text-decoration: overline;}
+
+/* id card print------------------------------------------------------------------------------------*/
+.icard_main_div{width: 400px;height: 225px;border: 3px solid #ccc;margin: 0 auto;border-radius: 10px;}
+.icard_header_div{width: 400px;height: 50px;background:#4550a2;border-top-left-radius: 8px;border-top-right-radius: 8px; }
+.icard_header_image{width: 50px; height: 35px; float: left;  border-radius: 5px;  margin-left: 6px;    margin-top: 10px;}
+.icard_header_logo{width: 50px;height: 35px;background: white;border-radius: 3px;}
+.icard_header_company_title{width: 320px;height:50px;float:right;text-align: left;}
+.icard_header_company_name{color: white;font-weight: bold; font-size:17px;line-height:25px;}
+.icard_body_main_div{    width: 400px; height: 125px; background: white;}
+.icard_body_photo_main_div{    width: 88px; float: left; height: 122px;}
+.icard_body_photo{width:75px;float: left;height: 60px;border: 3px solid #ccc; border-radius: 5px; margin: 5px;}
+.icard_body_photo_img{width:75px;float: left;height:60px;border-radius: 3px;}
+.icard_body_sig{width: 75px;float: left;height: 36px; margin: 5px;}
+.icard_body_sig_img{width: 75px;float: left;height: 36px; }
+.icard_body_table_div{width:300px;float:right;height: 120px; border:1px solid #ccc}
+.icard_body_th_label{width:90px;text-align: left;}
+.icard_body_th_label_short{width:8px}
+.icard_footer_main_div{width: 400px;height: 50px;background:#4550a2;border-bottom-left-radius: 8px;border-bottom-right-radius:8px;}
+.icard_footer_text_div{color: white;font-size: 11px;text-align: center;font-weight: bold; padding: 0px;margin: 0px;padding-top: 9px;}
+.icard_footer_text_phone{color: white;padding: 0px;margin: 0px; text-align: center; font-weight: bold;font-size: 14px;}
+.icard_body_table_div table th,td{border:none;font-size:14px}
+.icard_span{color: #cccccc; font-style: unset;}
+
+
+
+/*----------------------------------------------------------------all report-----------------------------------------*/
+.table_of_pdf{ width:100%;}
+.table_of_pdf td,th{border:1px solid #ccc; text-align:center}
+.table_of_pdf th{background: slategray;color: white;}
+.table_of_pdf td{height:30px}
+
+
+
+/*-----------------------------------------voucher print extr css--------------------------*/
+.wrapper_date_operator{width:95%;height:30px; padding:5px;}
+
+.wrapper_date_operator_date{width:20%; height:30px;float:left}
+.wrapper_date_operator_date_type{width:40%; height:30px;float:left; text-align:center}
+
+.wrapper_date_operator_operator{width:40%; height:30px;float:right; text-align: right;}
+
+.wrapper_client_information{width:95%;height:100px; padding:5px;}
+.wrapper_client_information p{margin:0px; padding:0px}
+.clientb{width:220px}
+
+
+ 

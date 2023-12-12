@@ -1,0 +1,26 @@
+hr {
+    display: block;
+    height: 1px;
+    background: white;
+    width: 100%;
+    display: none;
+   
+}
+.x_panel{
+    border:none;
+    margin: 0;
+}
+.well {
+    border:none;
+}
+
+ .text-right, .print, .no-print { 
+    display:none;
+    
+}
+body, page[size="A4"] {
+    margin-left: 0.05in;
+    box-shadow: 0;
+    /* scale:100; */
+  }
+

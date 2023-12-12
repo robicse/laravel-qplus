@@ -1,0 +1,739 @@
+{
+    "menu": [
+        {
+            "parent_menu":"Collapse",
+            "name": "User",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-users",
+            "serial": 4,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"User",
+                    "name": "Role",
+                    "slug": "roles",
+                    "icon": "nav-icon fas fa-circle",
+                    "serial": 5,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"User",
+                    "name": "Users",
+                    "slug": "users",
+                    "icon": "nav-icon fas fa-circle",
+                    "serial": 6,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "Company",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-users",
+            "serial": 1,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"Company",
+                    "name": "Business Setting",
+                    "slug": "business-settings",
+                    "icon": "nav-icon fas fa-cog",
+                    "serial": 2,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Company",
+                    "name": "Store",
+                    "slug": "stores",
+                    "icon": "nav-icon fas fa-shuttle-van",
+                    "serial": 3,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Parent",
+            "name": "Supplier",
+            "slug": "suppliers",
+            "icon": "nav-icon fas fa-parachute-box",
+            "serial": 7,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": []
+        },
+        {
+            "parent_menu":"Parent",
+            "name": "Customer",
+            "slug": "customers",
+            "icon": "nav-icon fas fa-user-plus",
+            "serial": 8,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": []
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "Product Management",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-barcode",
+            "serial": 9,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"Product Management",
+                    "name": "Category",
+                    "slug": "categories",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 10,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Product Management",
+                    "name": "Unit",
+                    "slug": "units",
+                    "icon": "nav-icon fas fa-dice-one",
+                    "serial": 11,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Product Management",
+                    "name": "Product",
+                    "slug": "products",
+                    "icon": "nav-icon fab fa-product-hunt",
+                    "serial": 12,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Product Management",
+                    "name": "Package",
+                    "slug": "packages",
+                    "icon": "nav-icon fab fa-product-hunt",
+                    "serial": 13,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "Purchase Stock",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-barcode",
+            "serial": 14,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"Purchase Stock",
+                    "name": "Purchase",
+                    "slug": "purchases",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 15,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Purchase Stock",
+                    "name": "Stock",
+                    "slug": "stocks",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 15,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Purchase Stock",
+                    "name": "Purchase Return",
+                    "slug": "purchase-returns",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 17,
+                    "status": 0,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "Sale Information",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-barcode",
+            "serial": 18,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"Sale Information",
+                    "name": "Sale",
+                    "slug": "sales",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 19,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Sale Information",
+                    "name": "Sale Return",
+                    "slug": "sale-returns",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 20,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Sale Information",
+                    "name": "Blank Sale",
+                    "slug": "blank-sales",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 21,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "Payment Receipt",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-barcode",
+            "serial": 21,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Advance Receipt",
+                    "slug": "advance-receipts",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 28,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Customer Receipt",
+                    "slug": "customer-receipts",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 22,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Supplier Payment",
+                    "slug": "supplier-payments",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 23,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Customer Due",
+                    "slug": "customer-dues",
+                    "icon": "nav-icon fas fa-coins",
+                    "serial": 24,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Supplier Due",
+                    "slug": "supplier-dues",
+                    "icon": "nav-icon fab fa-stack-exchange",
+                    "serial": 25,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Customer Return Due",
+                    "slug": "customer-return-dues",
+                    "icon": "nav-icon fas fa-coins",
+                    "serial": 26,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"Payment Receipt",
+                    "name": "Customer Refund",
+                    "slug": "customer-payments",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 27,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "All Report",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-barcode",
+            "serial": 26,
+            "status": 1,
+            "open_new_tab": "",
+            "submenu": [
+                {
+                    "parent_menu":"All Report",
+                    "name": "Purchase Store Wise",
+                    "slug": "purchase-store-wise-report",
+                    "icon": "nav-icon fas fa-university",
+                    "serial": 27,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Sale Store Wise",
+                    "slug": "sale-store-wise-report",
+                    "icon": "nav-icon fas fa-university",
+                    "serial": 28,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Multiple Store Current Stock",
+                    "slug": "multiple-store-current-stock-report",
+                    "icon": "nav-icon fas fa-university",
+                    "serial": 29,
+                    "open_new_tab": "",
+                    "status": 1
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Suppler Ledger",
+                    "slug": "supplier-ledgers",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":30,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Customer Ledger",
+                    "slug": "customer-ledgers",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":31,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "All Customer Ledger",
+                    "slug": "all-customer-ledgers",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":31,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Loss Profit",
+                    "slug": "loss-profits",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":32,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Product Price Status",
+                    "slug": "product-price-status",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":33,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Date Wise Sale",
+                    "slug": "date-wise-sale",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":34,
+                    "status": 0,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Date Wise Voucher",
+                    "slug": "date-wise-voucher",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":35,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Today Voucher",
+                    "slug": "today-voucher",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":36,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Balance Sheet",
+                    "slug": "balance-sheet",
+                    "icon": "nav-icon fas fa-university",
+                    "serial":37,
+                    "status": 1,
+                    "open_new_tab": "_blank",
+                    "submenu": []
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Check Product In Stock",
+                    "slug": "check-product-in-stock",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 38,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Stock Low",
+                    "slug": "stock-lows",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 38,
+                    "status": 1,
+                    "open_new_tab": ""
+                },
+                {
+                    "parent_menu":"All Report",
+                    "name": "Customer Last Product",
+                    "slug": "customer-last-product",
+                    "icon": "nav-icon fas fa-boxes",
+                    "serial": 39,
+                    "status": 1,
+                    "open_new_tab": ""
+                }
+            ]
+        }
+    ],
+    "permission": [
+        {
+            "name":"business-settings-list"
+        },
+        {
+            "name":"stores-list"
+        },
+        {
+            "name":"stores-create"
+        },
+        {
+            "name":"stores-edit"
+        },
+        {
+            "name":"stores-delete"
+        },
+        {
+            "name":"roles-list"
+        },
+        {
+            "name":"roles-create"
+        },
+        {
+            "name":"roles-edit"
+        },
+        {
+            "name":"roles-delete"
+        },
+        {
+            "name":"users-list"
+        },
+        {
+            "name":"users-create"
+        },
+        {
+            "name":"users-edit"
+        },
+        {
+            "name":"users-delete"
+        },
+        {
+            "name":"suppliers-list"
+        },
+        {
+            "name":"suppliers-create"
+        },
+        {
+            "name":"suppliers-edit"
+        },
+        {
+            "name":"suppliers-delete"
+        },
+        {
+            "name":"customers-list"
+        },
+        {
+            "name":"customers-create"
+        },
+        {
+            "name":"customers-edit"
+        },
+        {
+            "name":"customers-delete"
+        },
+        {
+            "name":"categories-list"
+        },
+        {
+            "name":"categories-create"
+        },
+        {
+            "name":"categories-edit"
+        },
+        {
+            "name":"categories-delete"
+        },
+        {
+            "name":"units-list"
+        },
+        {
+            "name":"units-create"
+        },
+        {
+            "name":"units-edit"
+        },
+        {
+            "name":"units-delete"
+        },
+        {
+            "name":"products-list"
+        },
+        {
+            "name":"products-create"
+        },
+        {
+            "name":"products-edit"
+        },
+        {
+            "name":"products-delete"
+        },
+        {
+            "name":"packages-list"
+        },
+        {
+            "name":"packages-create"
+        },
+        {
+            "name":"packages-edit"
+        },
+        {
+            "name":"packages-delete"
+        },
+        {
+            "name":"purchases-list"
+        },
+        {
+            "name":"purchases-create"
+        },
+        {
+            "name":"purchases-edit"
+        },
+        {
+            "name":"purchases-delete"
+        },
+        {
+            "name":"stocks-list"
+        },
+        {
+            "name":"stock-lows-list"
+        },
+        {
+            "name":"purchases-return-list"
+        },
+        {
+            "name":"purchases-return-create"
+        },
+        {
+            "name":"purchases-return-edit"
+        },
+        {
+            "name":"purchases-return-delete"
+        },
+        {
+            "name":"sales-list"
+        },
+        {
+            "name":"sales-create"
+        },
+        {
+            "name":"sales-edit"
+        },
+        {
+            "name":"sales-delete"
+        },
+        {
+            "name":"sales-return-list"
+        },
+        {
+            "name":"sales-return-create"
+        },
+        {
+            "name":"sales-return-edit"
+        },
+        {
+            "name":"sales-return-delete"
+        },
+        {
+            "name":"blank-sales-list"
+        },
+        {
+            "name":"blank-sales-create"
+        },
+        {
+            "name":"blank-sales-edit"
+        },
+        {
+            "name":"blank-sales-delete"
+        },
+        {
+            "name":"supplier-payments-list"
+        },
+        {
+            "name":"supplier-payments-create"
+        },
+        {
+            "name":"supplier-payments-edit"
+        },
+        {
+            "name":"supplier-payments-delete"
+        },
+        {
+            "name":"advance-receipts-list"
+        },
+        {
+            "name":"advance-receipts-create"
+        },
+        {
+            "name":"advance-receipts-edit"
+        },
+        {
+            "name":"advance-receipts-delete"
+        },
+        {
+            "name":"customer-receives-list"
+        },
+        {
+            "name":"customer-receives-create"
+        },
+        {
+            "name":"customer-receives-edit"
+        },
+        {
+            "name":"customer-receives-delete"
+        },
+        {
+            "name":"customer-payments-list"
+        },
+        {
+            "name":"customer-payments-create"
+        },
+        {
+            "name":"customer-payments-edit"
+        },
+        {
+            "name":"customer-payments-delete"
+        },
+        {
+            "name":"supplier-dues-list"
+        },
+        {
+            "name":"supplier-dues-create"
+        },
+        {
+            "name":"supplier-dues-edit"
+        },
+        {
+            "name":"supplier-dues-delete"
+        },
+        {
+            "name":"customer-dues-list"
+        },
+        {
+            "name":"customer-dues-create"
+        },
+        {
+            "name":"customer-dues-edit"
+        },
+        {
+            "name":"customer-dues-delete"
+        },
+        {
+            "name":"customer-return-dues-list"
+        },
+        {
+            "name":"customer-return-dues-create"
+        },
+        {
+            "name":"customer-return-dues-edit"
+        },
+        {
+            "name":"customer-return-dues-delete"
+        },
+        {
+            "name":"purchase-store-wise-report-list"
+        },
+        {
+            "name":"sale-store-wise-report-list"
+        },
+        {
+            "name":"multiple-store-current-stock-report-list"
+        },
+        {
+            "name":"supplier-ledgers-list"
+        },
+        {
+            "name":"customer-ledgers-list"
+        },
+        {
+            "name":"all-customer-ledgers-list"
+        },
+        {
+            "name":"loss-profits-list"
+        },
+        {
+            "name":"product-price-status-list"
+        },
+        {
+            "name":"date-wise-sale-list"
+        },
+        {
+            "name":"date-wise-voucher-list"
+        },
+        {
+            "name":"today-voucher-list"
+        },
+        {
+            "name":"balance-sheet-list"
+        },
+        {
+            "name":"check-product-in-stock-list"
+        },
+        {
+            "name":"customer-last-product-list"
+        }
+    ]
+}

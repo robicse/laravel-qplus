@@ -1,0 +1,238 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+#header_img_size{
+	background:url(../easy_img/5.png)no-repeat;
+	background-size:100%;
+	height: 200px;
+	width: 100%;
+	display:block;
+	padding:0 !important;
+	margin:0 auto;
+}
+/*.............................................start Background..............................................*/
+.back{
+	background-color: #0D83DD;
+	display:block;
+	width: 100%;
+	margin-top: -5px;
+}
+/*.............................................end Background..............................................*/
+
+/*.............................................start menu..............................................*/
+#menu{
+	margin-top: 10%;
+}
+/*.............................................end Background..............................................*/
+
+/*.............................................start logo..............................................*/
+#logo{
+	margin-top:6%;
+	margin-left: -1%;
+	/*padding-top: 2%;*/
+
+}
+/*.............................................end Background..............................................*/
+
+/*.............................................start navbar..............................................*/
+.navbar-default{
+	margin-top: 10%;
+	border: none;
+	margin-left: 10%;
+}
+.navbar-collapse ul li a{
+	border-right: 1px solid #999999;
+	line-height: 12%;
+	margin-top: 15%; 
+}
+.navbar-collapse .last{
+	border-right: none;
+}
+
+/*...................................................Tutorials and click.........................................*/
+.tutorial{
+	color: white;
+	/*margin-left: 23%;*/
+	margin-top: 15%;
+	display:block;
+	font-size: 200%;
+	margin-left: 60%;
+	text-align: right;
+}
+.click_here{
+	color: white;
+	text-align: center;
+	/*margin-left: 33%;*/
+	margin-top: 10%;
+	display:block;
+	font-size: 250%;
+	border: 2px solid white;
+}
+
+/*...................................start Automatic Monthly and picture........................................*/
+
+#slide_art h2{
+	color: white;
+	margin-left: 17%;
+	margin-top: 16%;
+	display:block;
+	font-size: 300%;
+	/*text-align: right;*/
+}
+.click_here{
+	color: white;
+}
+
+#slide_art p{
+	color: white;
+	margin-left: 17%;
+	font-size: 120%;
+	display:block;
+
+}
+#easy1{
+	margin-top: 1%;
+	/*margin-left: 33px;*/
+
+}
+/*...................................end Automatic Monthly and picture........................................*/
+/*................................................ start Billing method............................................*/
+
+#method{
+	background-color:#ECF0F1;
+}
+#method p{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.text_align{
+	/*margin-left: 35%;*/
+
+
+}
+.fix{
+	margin-top: 3%;
+}
+
+/*...................................start social services........................................*/
+.circle{
+	background-color: #2A5568;
+	 border-radius: 50%;
+	 border: 1px solid gray;
+	 padding:20px;
+	 color: #3F8092;
+	 text-align: center;
+	 margin-top: 10%;
+}
+
+/*...................................start footer_menu........................................*/
+#footer_menu{
+	background: #113E5B;
+	/*height: 150px;*/
+	text-align: center;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+#footer_menu ul li a{
+	color: #A0A1A4;
+}
+#footer_menu ul{
+	margin-top: 2%;
+	list-style-type: none;
+}
+
+/*...................................end footer_menu........................................*/
+
+/*...................................start footer_social icon........................................*/
+
+#social {
+	background: #113E5B;
+}
+
+
+#social a{
+    text-decoration:none;
+    }
+.fa-facebook{
+	background: #113E5B;
+	color: #A0A1A3;
+	border: 2px solid #A0A1A3;
+  	padding: 0.25em 0.45em;
+  	margin-left: 10%
+
+	}
+.fa-twitter{
+	background: #113E5B;
+	color: #A0A1A3;
+	border: 2px solid #A0A1A3;
+  	padding: 0.25em 0.25em;
+  	  	margin-left: 10%
+	}
+.fa-youtube{
+	background: #113E5B;
+	color: #A0A1A3;
+	border: 2px solid #A0A1A3;
+  	padding: 0.25em 0.25em;
+  	margin-left: 10%
+  
+	}
+.fa-linkedin{
+	background: #113E5B;
+	color: #A0A1A3;
+	border: 2px solid #A0A1A3;
+  	padding: 0.25em 0.25em;
+  	margin-left: 10%
+}
+.fa-google-plus{
+  	background: #113E5B;
+	color: #A0A1A3;
+	border: 2px solid #A0A1A3;
+  	padding: 0.25em 0.25em;
+  	text-align: center;
+  	margin-left: 10%
+  }  
+
+/*...................................end footer_social icon........................................*/
+
+/*..................................start footer_payment..................................*/
+  #footer_payment{
+  	background: #113E5B;
+  }
+  #social_icon{
+  	background: #113E5B;
+	text-align: center;
+  }
+  #social_icon ul {
+  	list-style-type: none;
+  	margin-top: 10%;
+  }
+
+/*..................................end footer_payment..................................*/
+
+/*.........................................copyright.................................*/
+#copyright{
+	text-align: center;
+	background: #113E5B;
+	color: #A0A1A3;
+}
+
+.text-div{
+    /*border:2px solid #0D83DD;*/
+    /*background-color: #FFFFff;*/
+    /*padding: .1em .1em .1em .9em;*/
+    /*color: #ffffff;*/
+    /*-webkit-box-shadow: 0 8px 6px -6px black;*/
+    /*-moz-box-shadow: 0 8px 6px -6px black;*/
+    /*box-shadow: 0 8px 6px -6px black;*/
+    /*-webkit-border-radius: 12px;*/
+    /*-moz-border-radius: 12px;*/
+    /*border-radius: 12px;*/
+}
+/*..............................................................end........................................................*/
+
+
