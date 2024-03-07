@@ -108,6 +108,20 @@
             @include('backend.common.reports.header')
             @include('backend.common.reports.date_time',['invoice_type'=>'Purchase Invoice','invoice_no'=>@$purchase->id])
         </div>
+        <div style="padding: 1.5rem;padding-bottom: 0">
+            <table>
+                <tr>
+                    <td class=" small">Supplier: {{ @$purchase->supplier->name }}
+                        </td>
+                </tr>
+                <tr>
+                    <td class=" small">Address: {{ @$purchase->supplier->address ?: $sale->supplier->email }}</td>
+                </tr>
+                <tr>
+                    <td class=" small">Supplier Phone: {{ @$purchase->supplier->phone }}</td>
+                </tr>
+            </table>
+        </div>
         <div style="padding: 1.5rem;">
             <table class="padding text-left small border-bottom">
                 <thead>
