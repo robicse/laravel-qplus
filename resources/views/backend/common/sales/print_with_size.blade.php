@@ -169,8 +169,13 @@ use Salla\ZATCA\Tags\TaxNumber;
                                                 </th>
                                             </tr>
                                         @endif
+                                        @if($sale->hc_voucher_number)
+                                            <tr style="margin-top: 60px;margin-bottom: 200px !important; padding-bottom: 200px">
+                                                <th class="text-right " style="text-align: left;padding-top:10px;">HC Voucher Number: {{ @$sale->hc_voucher_number }}</th>
+                                            </tr>
+                                        @endif
                                         <tr style="margin-top: 60px;margin-bottom: 200px !important; padding-bottom: 200px">
-                                            <th class="text-right " style="text-align: left;padding-top:10px;">1Comments: {{ @$sale->comments }}</th>
+                                            <th class="text-right " style="text-align: left;padding-top:10px;">Comments: {{ @$sale->comments }}</th>
                                         </tr>
                                     </tbody>
                                 </table>
